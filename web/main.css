@@ -233,6 +233,10 @@ div.vertical-line{
 .quotes-mobile {
     display: none;
 }
+.quotes-tablet {
+    display: none;
+}
+
 /*Quotes for Mobile Devices Begins*/
 /*Smartphone*/
 @media only screen and (max-width: 767px){
@@ -258,6 +262,38 @@ div.vertical-line{
         font-family: 'Varela Round', sans-serif;
     }
     .quotes-mobile .quotes-hr {
+        margin-bottom: 0px; 
+        margin-top: 0px;
+        border-top: 1px solid white;
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 1028px){
+    div.vertical-line {
+    }
+    .quotes {
+        display: none;
+    }
+    .quotes-mobile {
+        display: none;
+    }
+
+    .quotes-tablet {
+        display: block;
+        background-color: #3b4249 !important;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 3%;
+        padding-left: 3%;
+        margin-bottom: 0px;
+        margin-top: 1px;
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: whitesmoke !important; 
+        font-family: 'Varela Round', sans-serif;
+    }
+    .quotes-tablet .quotes-hr {
         margin-bottom: 0px; 
         margin-top: 0px;
         border-top: 1px solid white;
