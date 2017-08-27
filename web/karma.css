@@ -103,71 +103,74 @@ html,body {
     float: right;
     margin-right: 15%;
 }
-/* Karma Jumbotron for mobile devices begins */
+    /* Karma Jumbotron for mobile devices begins */
 @media only screen and (max-width: 767px){
-.karma {
-    background-color: white !important;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: black; 
-    font-family: 'Varela Round', sans-serif;
-}
-.karma .row {
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-.karma-hr {
-    margin-bottom: 0px; 
-    margin-top: 0px;
-    border-top: 1px solid #8c8b8b;
-    width: 50%;
-}
-.karma .col-sm-3 {
-    margin: 0px;
-    padding: 0px;
-    text-align:center;
-}
-.karma .col-sm-3 img {
-    width: 100%;
-    height: 100%;
-}
-/* Force table to not be like tables anymore */
-table, thead, tbody, th, td, tr { 
-	display: block; 
-}
-thead tr { 
-	position: absolute;
-	top: -9999px;
-	left: -9999px;
-	}
-	
-	tr { border: 1px #ccc; }
-	
-	td { 
-		/* Behave  like a "row" */
-		border: none;
-		border-bottom: 1px solid #eee; 
-		position: relative;
-		padding-left: 50%; 
-	}
-	
-	td:before { 
-		/* Now like a table header */
-		position: absolute;
-		/* Top/left values mimic padding */
-		top: 6px;
-		left: 6px;
-		width: 45%; 
-		padding-right: 10px; 
-		white-space: nowrap;
-	}    
-}
-/*Karma Jumbotron for mobile devices ends*/
+    .karma {
+        background-color: white !important;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: black; 
+        font-family: 'Varela Round', sans-serif;
+    }
+    .karma .top {
+        padding-top: 10%;
+    }
+    .karma .row {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .karma-hr {
+        margin-bottom: 0px; 
+        margin-top: 0px;
+        border-top: 1px solid #8c8b8b;
+        width: 50%;
+    }
+    .karma .col-sm-3 {
+        margin: 0px;
+        padding: 0px;
+        text-align:center;
+    }
+    .karma .col-sm-3 img {
+        width: 100%;
+        height: 100%;
+    }
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr { 
+        display: block; 
+    }
+    thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        }
+
+        tr { border: 1px #ccc; }
+
+        td { 
+            /* Behave  like a "row" */
+            border: none;
+            border-bottom: 1px solid #eee; 
+            position: relative;
+            padding-left: 50%; 
+        }
+
+        td:before { 
+            /* Now like a table header */
+            position: absolute;
+            /* Top/left values mimic padding */
+            top: 6px;
+            left: 6px;
+            width: 45%; 
+            padding-right: 10px; 
+            white-space: nowrap;
+        }    
+    }
+    /*Karma Jumbotron for mobile devices ends*/
 /*Karma Jumbotron Ends*/
 
 /*Footer Jumbotron Begins*/
