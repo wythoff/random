@@ -259,7 +259,7 @@ html,body {
     font-size: 90%;
     padding-top: 12%;
     padding-bottom: 0%;
-    padding-left: 44%;
+    padding-left: 35%;
     color:#EEE;
 }
 
@@ -285,6 +285,12 @@ html,body {
     .footercopyright{
         padding-left:17%;
         padding-top:3%;
+    }
+}
+/*Tablets*/
+@media only screen and (min-width:768px) {
+    .ulfooter {
+        padding-left:20%;
     }
 }
 
