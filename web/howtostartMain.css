@@ -9,7 +9,6 @@ html,body {
     margin-bottom: 0px;
     margin-top: 0px;
 }
-
 /*Navbar Begins*/
 .nav {
     min-height: 80px;
@@ -310,4 +309,64 @@ html,body {
 }
 
 /*Footer for Mobile Devices Ends*/
+/*howtostart Jumbotron Begins*/
+.howtostart {
+    background-color: white !important;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black; 
+    font-family: 'Varela Round', sans-serif;
+    padding-top: 5%;
+}
+.howtostart .row {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.features-hr {
+    margin-bottom: 0px; 
+    margin-top: 0px;
+    border-top: 1px solid #8c8b8b;
+    width: 50%;
+}
+.howtostart .col-sm-6 {
+    margin: 0px;
+    padding: 0px;
+}
+/*howtostart Jumbotron for mobile devices begins*/
+
+@media only screen and (max-width: 767px){
+.howtostart {
+    background-color: white !important;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black; 
+    font-family: 'Varela Round', sans-serif;
+}
+.howtostart .row {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.features-hr {
+    margin-bottom: 0px; 
+    margin-top: 0px;
+    border-top: 1px solid #8c8b8b;
+    width: 50%;
+}
+.howtostart .col-sm-6 {
+    margin: 0px;
+    padding: 0px;
+
+}
+}
+
+/*howtostart Jumbotron for mobile devices ends*/
+/*howtostart Jumbotron Ends*/
 
