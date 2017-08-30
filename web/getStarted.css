@@ -69,8 +69,8 @@ html,body {
 
 /*Navbar Ends*/
 
-/*howToStart Jumbotron Begins*/
-.howToStart{
+/*getStarted Jumbotron Begins*/
+.getStarted{
     background-color: white !important;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -80,22 +80,22 @@ html,body {
     color: black; 
     font-family: 'Varela Round', sans-serif;
 }
-.howToStart .row {
+.getStarted .row {
     padding-top: 10%;
     padding-bottom: 10%;
 }
-.howToStart-hr {
+.getStarted-hr {
     margin-bottom: 0px; 
     margin-top: 0px;
     border-top: 1px solid #8c8b8b;
     width: 80%;
 }
-.howToStart .col-sm-8 {
+.getStarted .col-sm-8 {
     margin: 0px;
     padding: 0px;
     text-align:center;
 }
-.howToStart .col-sm-3 img {
+.getStarted .col-sm-3 img {
     padding: 0px;
     margin: 0px;
     width: 200px;
@@ -111,9 +111,9 @@ html,body {
     background-color: #d6d9db;
 }
 
-    /* howToStart Jumbotron for mobile devices begins */
+    /* getStarted Jumbotron for mobile devices begins */
     @media only screen and (max-width: 767px){
-        .howToStart {
+        .getStarted {
             background-color: white !important;
             margin-bottom: 0px;
             margin-top: 0px;
@@ -123,27 +123,27 @@ html,body {
             color: black; 
             font-family: 'Varela Round', sans-serif;
         }
-        .howToStart .top {
+        .getStarted .top {
             padding-top: 10%;
         }
-        .howToStart .row {
+        .getStarted .row {
             padding-top: 10%;
             padding-bottom: 10%;
             padding-left: 10%;
             padding-right: 10%;
         }
-        .howToStart-hr {
+        .getStarted-hr {
             margin-bottom: 0px; 
             margin-top: 0px;
             border-top: 1px solid #8c8b8b;
             width: 50%;
         }
-        .howToStart .col-sm-3 {
+        .getStarted .col-sm-3 {
             margin: 0px;
             padding: 0px;
             text-align:center;
         }
-        .howToStart .col-sm-3 img {
+        .getStarted .col-sm-3 img {
             width: 100%;
             height: 100%;
         }
@@ -191,8 +191,8 @@ html,body {
             background-color: #d6d9db;
         }
     }
-    /*howToStart Jumbotron for mobile devices ends*/
-/*howToStart Jumbotron Ends*/
+    /*getStarted Jumbotron for mobile devices ends*/
+/*getStarted Jumbotron Ends*/
 
 /*Footer Jumbotron Begins*/
 .footer {
