@@ -1,0 +1,165 @@
+html,body {
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.jumbotron {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/*Algorithms Div Begins*/
+.algorithms {
+    padding-left: 5%;
+}
+.algorithms .header {
+    padding-top: 8%;
+}
+.algo-hr {
+    border-top: 1px solid #8c8b8b;
+    margin-right: 5%;
+}
+.grid {
+    padding-right: 5%;
+    margin-bottom: 5%;
+    display:flow-root;
+}
+.grid .grid-column {
+    margin-right: 8%;
+}
+.grid .grid-element {
+    min-height: 80px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.grid .grid-element:hover {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.grid .element-hr {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 90%;
+    border-top: 1px dashed darkgray;
+}
+
+/*Algorithms Div for mobile devices begins */
+/*Smartphones*/
+@media only screen and (max-width:767px){
+    .algorithms .header {
+        padding-top: 60px;
+    }
+}
+/*Tablets*/
+@media only screen and (min-width:768px){
+    .algorithms .header {
+        padding-top: 12%;
+    }    
+}
+/*Desktop Screens*/
+@media only screen and (min-width:1024px){
+    .algorithms .header {
+        padding-top: 8%;
+    }
+}
+/*Algorithms Div for mobile devices ends*/
+
+/*Algorithms Div Engs*/
+
+/*Data Structures Div Begins*/
+.ds {
+    padding-left: 5%;
+}
+.ds .header {
+    padding-top: 0px;
+}
+/*Data Structures Div Engs*/
+
+/*Navbar Begins*/
+.nav {
+    min-height: 80px;
+}
+.navbar-brand {
+    line-height: 60px;
+    height: 60px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.navbar-brand-mobile {
+    display: none;
+}
+.navbar-nav li a {
+    line-height: 60px;
+    height: 60px;
+    padding-top: 10px;
+    color: white !important;
+}
+.navbar-nav li a:hover {
+    color: #bcbec1 !important;
+}
+.input-group {
+    padding-top: 6%;
+}
+.navbar-default {
+    background-color: #24292e;
+    border-color: black;
+}
+.navbar-nav .active a{
+    background-color: #191c20 !important;
+    min-height: 80px;
+}
+/*Navbar for Mobile Devices Begins*/
+/*Smartphones*/
+@media only screen and (max-width:767px) {
+    .navbar-brand{
+        display: none;
+    }
+    .navbar-brand-mobile {
+        display: block;
+    }
+}
+/*Tablets*/
+@media only screen and (min-width:768px) {
+    .search {
+        float: right;
+        width: 10%;
+    }
+}
+/*Desktop Screens*/
+@media only screen and (min-width:1024px) {
+    .search {
+        display: block;
+    }
+}
+/*Navbar for Mobile Devices Ends*/
+
+/*Navbar Ends*/
+
+/*Sign In Modal Begins*/
+.loginbutt{
+    margin-top: 3%;
+}
+.modal-header {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: black;
+    border-color: gainsboro;
+}
+.modal-body {
+    padding-top: 5%;
+    border-color: gainsboro;
+}
+.signin-hr{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    border-top: 1px solid #8c8b8b;
+    width: 80%;
+}
+.modal-body .input-group {
+    padding: 0px;
+    margin: 0px;
+}
+/*Sign In Modal Ends*/
