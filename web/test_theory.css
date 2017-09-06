@@ -13,6 +13,7 @@ html,body {
 /*Algorithms Div Begins*/
 .algorithms {
     padding-left: 5%;
+    font-family: 'Varela Round', sans-serif;
 }
 .algorithms .header {
     padding-top: 8%;
@@ -31,13 +32,17 @@ html,body {
 }
 .grid .grid-element {
     min-height: 80px;
-    border: 2px solid white;
+    max-height: 80px;
+    border: 1px solid lightgray;
     border-radius: 10px;
     margin-bottom: 5%;
 }
 .grid .grid-element:hover {
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
 }
 .grid .element-hr {
     margin-top: 3%;
@@ -66,17 +71,44 @@ html,body {
     }
 }
 /*Algorithms Div for mobile devices ends*/
+.grid a {
+    color:black;
+    text-decoration: none;
+}
+.algo-modal {
+    font-family: 'Varela Round', sans-serif;
+}
+.algo-modal .modal-header {
+    background-color: #24292e;
+    color: white !important;
+}
+.algo-modal .modal-footer {
+    margin: 0px;
+}
+
 
 /*Algorithms Div Engs*/
 
 /*Data Structures Div Begins*/
 .ds {
     padding-left: 5%;
+    font-family: 'Varela Round', sans-serif;
 }
 .ds .header {
     padding-top: 0px;
 }
-/*Data Structures Div Engs*/
+.ds-modal {
+    font-family: 'Varela Round', sans-serif;
+}
+.ds-modal .modal-header {
+    background-color: #24292e;
+    color: white !important;
+}
+.ds-modal .modal-footer {
+    margin: 0px;
+}
+
+/*Data Structures Div Ends*/
 
 /*Navbar Begins*/
 .nav {
